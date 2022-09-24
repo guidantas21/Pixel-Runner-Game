@@ -1,5 +1,7 @@
 # Pixel Runner Verison 1.0: Simple game using Pygame
 
+## THIS DOCUMENTATION IS NOT COMPLETE YET
+
 ## Project Overview
 1. Concept
     - Pixel Runner is a game which the player needs to dodge the obstacles to stay alive, the longer the player stays alive, the higher his score, very similar to the Google dinossaur game. The main goal of this project is to exercise the implementation of basic concepts of object-oriented programming, such as inheritance, this way I build all the game based on classes, there's a class for the level, player, obstacles and for the game logic.
@@ -17,36 +19,37 @@
             - It's a class that inherits from the Pygame Sprite class, providing some prebuilt functionalities for sprites
             - A sprite has a image (surface that changes coording to the animation state) and rect (kinda like a hit box)
         - Gravity
-            - To simulate gravity, every frame the y position of the pl
+            - Comming soon...
         - Movement
-            - Jump
+            - Comming soon...
         - Animation
-            - Walking animation
-                - There is a list of images of the player walking
-                - 
-        - Update
+            - Comming soon...
 
     - Obstacle
         - Sprite Class
             - It's a class that inherits from the Pygame Sprite class, providing some prebuilt functionalities for sprites
             - A sprite has a image (surface that changes coording to the animation state) and rect (kinda like a hit box)
         - Types of Obstacle
-            - Fly
-            - Snail
+            - Comming soon...
         - Movement
-        - Animation 
-        - Update
+            - Comming soon...
+        - Animation
+            - Comming soon...
 
     - Game
-        - 
+        - Comming soon...
 
 
 4. New features ideas
+    - Comming soon...
 
 ## How to run the game
 1. Install the [Python Interpreter](https://www.python.org/downloads/)
 2. Install the Pygame Library
     - Command: ```pip install pygame```
+3. Download the source code
+4. Execute the main.py file
+    - Command: ```python main.py```
 
 ## How to play Pixel Runner
 1. Press the SPACE key to start the game
