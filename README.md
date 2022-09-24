@@ -9,7 +9,7 @@
 2. Technology
     - All the game was built in Python, using Pygame, this amazing module is great for building 2D games. The performance is not quite the best (for simple games it doesn't really matter), in constrast the practicality is great, easy syntax and many features that can make the building process very programmer friendly and joyful.
 
-3. Implememtation
+3. Implementation
     - Level
         - This game only has one level, which has background surface and a ground surface (surface = image)
         - The level also stores some position information to indicate the hight of the ground and where the player and obstacles should spawn and the background music
