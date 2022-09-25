@@ -11,19 +11,21 @@
 
 3. Implementation
     - Level
-        - This game only has one level, which has background surface and a ground surface (surface = image)
-        - The level also stores some position information to indicate the hight of the ground and where the player and obstacles should spawn and the background music
+        - This game only has one level, which has background surface and a ground surface (surface = image).
+        - The level also stores some position information to indicate the hight of the ground and where the player and obstacles should spawn and the background music.
 
     - Player
         - Sprite Class
             - It's a class that inherits from the Pygame Sprite class, providing some prebuilt functionalities for sprites
-            - A sprite has a image (surface that changes coording to the animation state) and rect (kinda like a hit box)
+            - A sprite has a image (surface that changes coording to the animation state) and rect (kinda like a hit box).
         - Gravity
-            - Comming soon...
+            - If the player is not in the ground, the gravity increases by 1 and the player y postion increases by the gravity value in each frame, making the player fall back to the ground.
         - Movement
-            - Comming soon...
+            - To simualte a jump, player's gravity = -20, then in each frame it's incresed by 1, this way the player jump speed will slow down until until gravity reaches 0, after that the player starts to fall until it reaches the ground.
         - Animation
-            - Comming soon...
+            - The player has 2 animation states: walking and jumping
+                - Jump animation: If the player jumping, the sprite image = image of player jumping
+                - Walk animation: If the player is not jumping, is walking, so while the player is walking, the sprite image toggles between two walking frames (stored in the frames array) 
 
     - Obstacle
         - Sprite Class
