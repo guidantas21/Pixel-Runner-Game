@@ -25,18 +25,18 @@
         - Animation
             - The player has 2 animation states: walking and jumping
                 - Jump animation: If the player jumping, the sprite image = image of player jumping
-                - Walk animation: If the player is not jumping, is walking, so while the player is walking, the sprite image toggles between two walking frames (stored in the frames array) 
+                - Walk animation: If the player is not jumping, is walking, so while the player is walking, the sprite image toggles between two walking surfaces (stored in the frames array) 
 
     - Obstacle
         - Sprite Class
             - It's a class that inherits from the Pygame Sprite class, providing some prebuilt functionalities for sprites
             - A sprite has a image (surface that changes coording to the animation state) and rect (kinda like a hit box)
         - Types of Obstacle
-            - Comming soon...
+            - Snail and Fly -> both have their own surfaces and rects
         - Movement
-            - Comming soon...
+            - The Obstacle moves in only one direction, so in each frame the x position is subtracted by the speed (making the obstacle go foward <-) until it is not visible (in this case the obstacle is deleted) 
         - Animation
-            - Comming soon...
+            - The Obstacle is constantly switching between two surfaces (stored in the frames array), giving an impression of movement 
 
     - Game
         - Comming soon...
