@@ -261,6 +261,7 @@ class PixelRunner:
     
     def update_player_score(self):
         self.gameplay_time = int(pygame.time.get_ticks() / 100)
+        print(self.start_time, self.gameplay_time)
         self.player.sprite.score = self.gameplay_time - self.start_time
 
 
